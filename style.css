@@ -1,0 +1,18 @@
+.box{
+    width: 200px;
+    height: 210px;
+    background-color: pink;
+    animation: color 3s;
+    padding: 30px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+@keyframes color{
+    from{
+        transform: tranlatey(0);
+
+    }
+    to{
+        transform: translatey(-100px) ;
+    }
+}
